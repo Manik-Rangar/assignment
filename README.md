@@ -31,6 +31,14 @@ cp .env.example .env      # then edit values if needed
 
 ### Run
 
+Make sure MongoDB is running first, e.g. on Linux:
+
+```bash
+sudo systemctl start mongod
+```
+
+Then:
+
 ```bash
 npm run dev     # development with auto-reload
 npm run build   # compile TypeScript to dist/
